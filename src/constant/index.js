@@ -1,28 +1,23 @@
 import {
 	mobile,
 	backend,
-	creator,
 	web,
 	javascript,
-	typescript,
 	html,
 	css,
 	reactjs,
-	redux,
 	tailwind,
+	around,
+	hometown,
 	nodejs,
 	mongodb,
 	git,
 	figma,
-	docker,
-	meta,
-	starbucks,
-	tesla,
-	shopify,
-	carrent,
-	jobit,
-	tripguide,
+	sindanoi,
 	threejs,
+	heblima,
+	practicum,
+	sindano,
 } from "../assets";
 
 export const navLinks = [
@@ -68,18 +63,12 @@ const technologies = [
 		name: "JavaScript",
 		icon: javascript,
 	},
-	{
-		name: "TypeScript",
-		icon: typescript,
-	},
+
 	{
 		name: "React JS",
 		icon: reactjs,
 	},
-	{
-		name: "Redux Toolkit",
-		icon: redux,
-	},
+
 	{
 		name: "Tailwind CSS",
 		icon: tailwind,
@@ -104,63 +93,45 @@ const technologies = [
 		name: "figma",
 		icon: figma,
 	},
-	{
-		name: "docker",
-		icon: docker,
-	},
 ];
 
 const experiences = [
 	{
 		title: "React.js Developer",
-		company_name: "Starbucks",
-		icon: starbucks,
-		iconBg: "#383E56",
-		date: "March 2020 - April 2021",
-		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
-		],
-	},
-	{
-		title: "React Native Developer",
-		company_name: "Tesla",
-		icon: tesla,
+		company_name: "Sindano Health",
+		icon: sindano,
 		iconBg: "#E6DEDD",
-		date: "Jan 2021 - Feb 2022",
+		date: "November 2022 - January 2023",
 		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
+			"I worked in a team of five software engineers in agile environment and contributed to the following:",
+			"Built a B2B landing page using ReactJS.",
+			"Deployed a frontend application to GitHub pages.",
+			"Tech: ReactJs | Styled Components | Framer Motion | LinkedIn API | Serverless Framework | Nodemailer.",
 		],
 	},
 	{
-		title: "Web Developer",
-		company_name: "Shopify",
-		icon: shopify,
-		iconBg: "#383E56",
-		date: "Jan 2022 - Jan 2023",
-		points: [
-			"Developing and maintaining web applications using React.js and other related technologies.",
-			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-			"Implementing responsive design and ensuring cross-browser compatibility.",
-			"Participating in code reviews and providing constructive feedback to other developers.",
-		],
-	},
-	{
-		title: "Full stack Developer",
-		company_name: "Meta",
-		icon: meta,
+		title: "Practicum by Yandex Externship",
+		company_name: "Practicum",
+		icon: practicum,
 		iconBg: "#E6DEDD",
-		date: "Jan 2023 - Present",
+		date: "Jul 2021 - May 2022",
 		points: [
+			"Completed 740+ hours of coding in JavaScript, React, Node.js, HTML, CSS",
 			"Developing and maintaining web applications using React.js and other related technologies.",
 			"Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
 			"Implementing responsive design and ensuring cross-browser compatibility.",
 			"Participating in code reviews and providing constructive feedback to other developers.",
+		],
+	},
+	{
+		title: "Sales Representative",
+		company_name: "Heblima",
+		icon: heblima,
+		iconBg: "#E6DEDD",
+		date: "Jan 2016 - Feb 2018",
+		points: [
+			" Developed and maintained a strong sales pipeline",
+			" Converted 20% of leads into paying customers.",
 		],
 	},
 ];
@@ -194,67 +165,61 @@ const testimonials = [
 
 const projects = [
 	{
-		name: "Car Rent",
+		name: "Sindano Health",
 		description:
-			"Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+			"A responsive landing page for the Sinadano company built using React and Storybook. This real-world project was a voluntary collaboration between four other developers and myself under the Practicum USA externship program.",
 		tags: [
 			{
 				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "mongodb",
-				color: "green-text-gradient",
-			},
-			{
-				name: "tailwind",
+				name: "Styled components",
 				color: "pink-text-gradient",
 			},
 		],
-		image: carrent,
-		source_code_link: "https://github.com/",
+		image: sindanoi,
+		source_code_link: "https://github.com/Pedro-Nepomuceno/Sindano",
 	},
 	{
-		name: "Job IT",
+		name: "Around-React",
 		description:
-			"Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+			"A full-stack web app that allows users to create an account, log in, add, delete, like, and unlike photos and update their avatar. Designed a RESTful API to provide CRUD functionality and store data using MongoDB",
+
 		tags: [
 			{
 				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "restapi",
+				name: "Node.js",
 				color: "green-text-gradient",
 			},
 			{
-				name: "scss",
+				name: "MongoDB",
 				color: "pink-text-gradient",
 			},
 		],
-		image: jobit,
-		source_code_link: "https://github.com/",
+		image: around,
+		source_code_link:
+			"https://github.com/Pedro-Nepomuceno/react-around-api-full",
 	},
 	{
-		name: "Trip Guide",
+		name: "Showcase",
 		description:
-			"A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+			"This is a project that showcases the hometowns of some of Practicum's employees. I've built it so all the elements are displayed correctly on popular screen sizes.",
 		tags: [
 			{
-				name: "nextjs",
+				name: "CSS",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "supabase",
+				name: "HTML",
 				color: "green-text-gradient",
 			},
-			{
-				name: "css",
-				color: "pink-text-gradient",
-			},
 		],
-		image: tripguide,
-		source_code_link: "https://github.com/",
+		image: hometown,
+		source_code_link: "https://github.com/Pedro-Nepomuceno/web_project_3",
 	},
 ];
 
