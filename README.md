@@ -1,7 +1,7 @@
 # webportfolio
 
-#Check out my personal website 
+Check out my personal website 
 
-#Technologies used: React, Three.js, Tailwind
+Technologies used: React, Three.js, Tailwind
 
-# pedrohnlima.com
+ [pedrohnlima.com](https://www.pedrohnlima.com)
