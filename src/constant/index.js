@@ -18,6 +18,7 @@ import {
 	heblima,
 	practicum,
 	sindano,
+	Artalaxies,
 } from "../assets";
 
 export const navLinks = [
@@ -99,7 +100,7 @@ const experiences = [
 	{
 		title: "Frontend Developer",
 		company_name: "Artalaxies",
-		icon: sindano,
+		icon: Artalaxies,
 		iconBg: "#E6DEDD",
 		date: "November 2022 - January 2023",
 		points: [

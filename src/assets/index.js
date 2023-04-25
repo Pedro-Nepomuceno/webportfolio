@@ -18,6 +18,7 @@ import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 import heblima from "./company/heblima.png";
 import sindano from "./company/sindano.svg";
+import Artalaxies from "./company/Artalaxies.jpeg";
 import practicum from "./company/practicum.jpg";
 import sindanoi from "./company/sindanoi.jpeg";
 import hometown from "./company/hometown.png";
@@ -45,4 +46,5 @@ export {
 	practicum,
 	heblima,
 	hometown,
+	Artalaxies,
 };
