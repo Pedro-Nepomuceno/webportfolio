@@ -102,7 +102,7 @@ const experiences = [
 		company_name: "Artalaxies",
 		icon: Artalaxies,
 		iconBg: "#E6DEDD",
-		date: "November 2022 - January 2023",
+		date: "October 2022 - Present",
 		points: [
 			"work on a number of projects, including developing web applications and a Software-as-a-Service dashboard using React and Chart.js",
 			"Implement an intuitive user interface and integrating data vizualization in real-time",
