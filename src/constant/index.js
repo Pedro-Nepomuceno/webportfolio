@@ -97,6 +97,17 @@ const technologies = [
 
 const experiences = [
 	{
+		title: "Frontend Developer",
+		company_name: "Artalaxies",
+		icon: sindano,
+		iconBg: "#E6DEDD",
+		date: "November 2022 - January 2023",
+		points: [
+			"work on a number of projects, including developing web applications and a Software-as-a-Service dashboard using React and Chart.js",
+			"Implement an intuitive user interface and integrating data vizualization in real-time",
+		],
+	},
+	{
 		title: "React.js Developer",
 		company_name: "Sindano Health",
 		icon: sindano,
