@@ -104,8 +104,10 @@ const experiences = [
 		iconBg: "#E6DEDD",
 		date: "October 2022 - Present",
 		points: [
-			"work on a number of projects, including developing web applications and a Software-as-a-Service dashboard using React and Chart.js",
+			"Worked on a number of projects, including developing web applications and a Software-as-a-Service dashboard using React and Chart.js",
 			"Implement an intuitive user interface and integrating data vizualization in real-time",
+			"Worked in an Agile environment, specifically using the Scrum framework",
+			"Participated in regular Scrum ceremonies, including stand-up meetings, sprint planning, and retrospectives",
 		],
 	},
 	{
@@ -115,7 +117,7 @@ const experiences = [
 		iconBg: "#E6DEDD",
 		date: "November 2022 - January 2023",
 		points: [
-			"I worked in a team of five software engineers in agile environment and contributed to the following:",
+			"A collaboration with five software engineers in an agile environment and contributed to the following:",
 			"Built a B2B landing page using ReactJS.",
 			"Deployed a frontend application to GitHub pages.",
 			"Tech: ReactJs | Styled Components | Framer Motion | LinkedIn API | Serverless Framework | Nodemailer.",
