@@ -19,6 +19,7 @@ import {
 	practicum,
 	sindano,
 	Artalaxies,
+	Art,
 } from "../assets";
 
 export const navLinks = [
