@@ -169,23 +169,6 @@ const projects = [
 		source_code_link: "https://github.com/Pedro-Nepomuceno/Sindano",
 	},
 	{
-		name: "Sindano Health",
-		description:
-			"A responsive landing page for the Sinadano company built using React and Storybook. This real-world project was a voluntary collaboration between four other developers and myself under the Practicum USA externship program.",
-		tags: [
-			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "Styled components",
-				color: "pink-text-gradient",
-			},
-		],
-		image: sindanoi,
-		source_code_link: "https://github.com/Pedro-Nepomuceno/Sindano",
-	},
-	{
 		name: "Around-React",
 		description:
 			"A full-stack web app that allows users to create an account, log in, add, delete, like, and unlike photos and update their avatar. Designed a RESTful API to provide CRUD functionality and store data using MongoDB",
@@ -207,6 +190,27 @@ const projects = [
 		image: around,
 		source_code_link:
 			"https://github.com/Pedro-Nepomuceno/react-around-api-full",
+	},
+	{
+		name: "Artalaxies",
+		description:
+			"This is a project that uses the Web 3.0 tech stack to build decentralized applications for the next generation of internet experience.",
+		tags: [
+			{
+				name: "React",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "Chart.js",
+				color: "pink-text-gradient",
+			},
+			{
+				name: "Node.js",
+				color: "green-text-gradient",
+			},
+		],
+		image: sindanoi,
+		source_code_link: "https://github.com/Artalaxies",
 	},
 	{
 		name: "Showcase",

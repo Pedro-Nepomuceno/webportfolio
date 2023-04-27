@@ -22,6 +22,7 @@ import Artalaxies from "./company/Artalaxies.jpeg";
 import practicum from "./company/practicum.jpg";
 import sindanoi from "./company/sindanoi.jpeg";
 import hometown from "./company/hometown.png";
+import Art from "./company/Art.jpg";
 export {
 	logonoback,
 	backend,
@@ -47,4 +48,5 @@ export {
 	heblima,
 	hometown,
 	Artalaxies,
+	Art,
 };
