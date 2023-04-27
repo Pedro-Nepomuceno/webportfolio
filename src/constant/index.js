@@ -209,7 +209,7 @@ const projects = [
 				color: "green-text-gradient",
 			},
 		],
-		image: sindanoi,
+		image: Art,
 		source_code_link: "https://github.com/Artalaxies",
 	},
 	{
