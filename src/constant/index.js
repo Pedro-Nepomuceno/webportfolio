@@ -106,7 +106,7 @@ const experiences = [
 		date: "October 2022 - Present",
 		points: [
 			"Worked on a number of projects, including developing web applications and a Software-as-a-Service dashboard using React and Chart.js",
-			"Implement an intuitive user interface and integrating data vizualization in real-time",
+			"Implement an intuitive user interface and integrating data visualization in real-time",
 			"Worked in an Agile environment, specifically using the Scrum framework",
 			"Participated in regular Scrum ceremonies, including stand-up meetings, sprint planning, and retrospectives",
 		],
