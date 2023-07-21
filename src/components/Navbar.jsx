@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { styles } from "../styles";
 import { navLinks } from "../constant";
-import { logonoback, menu, close } from "../assets";
+import { menu, close } from "../assets";
 
 const Navbar = () => {
 	const [active, setActive] = useState("");
@@ -11,7 +11,7 @@ const Navbar = () => {
 	useEffect(() => {
 		const handleScroll = () => {
 			const scrollTop = window.scrollY;
-			if (scrollTop > 100) {
+			if (scrollTop > 30) {
 				setScrolled(true);
 			} else {
 				setScrolled(false);
@@ -26,7 +26,7 @@ const Navbar = () => {
 		<nav
 			className={`${
 				styles.paddingX
-			} w-full flex items-center py-5 fixed top-0 z-20 ${
+			} w-full flex items-center py-8 fixed top-0 z-20 ${
 				scrolled ? "bg-primary" : "bg-transparent"
 			}`}>
 			<div className="w-full flex justify-between items-center max-w-7x1 mx-auto">
@@ -37,11 +37,6 @@ const Navbar = () => {
 						setActive("");
 						window.scrollTo(0, 0);
 					}}>
-					<img
-						src={logonoback}
-						alt="logo"
-						className="w-20 h-20 object-contain"
-					/>
 					<p className="text-white text-[18px] font-bold cursor-pointer flex">
 						Pedro Nepomuceno &nbsp;
 						<span className="sm:block hidden"> | Software Engineer</span>
