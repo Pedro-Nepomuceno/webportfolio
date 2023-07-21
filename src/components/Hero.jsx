@@ -5,7 +5,9 @@ import { styles } from "../styles";
 
 const Hero = () => {
 	return (
-		<section className="flex pt-32 flex-col w-full h-screen mx-auto"></section>
+		<section className="flex items-center container flex-col w-full h-screen mx-auto">
+			<h1 className="text-3xl">CREATING</h1>
+		</section>
 	);
 };
 
