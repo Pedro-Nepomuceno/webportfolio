@@ -12,6 +12,7 @@ const Hero = () => {
 						<p className="transform translate-x-0 translate-y-0 scale-100 rotate-x-0 rotate-y-0 rotate-z-0 skew-x-0 skew-y-0 transform-style-preserve-3d show-on-load-1st md:z-2 md:letter-spacing-1.3 md:text-uppercase md:font-Degular-display md:text-3.7vw md:relative">
 							Frontend Developer
 						</p>
+						<div className="overflow-hidden md:margin-bottom-0 lg:font-size-12vw mb-neg-2.5vw font-Grandslang md:mb-neg-6.5vw flex flex-row justify-center items-stretch mb-neg-5.5vw font-Grandslang md:font-Grandslang"></div>
 					</div>
 				</div>
 			</div>
