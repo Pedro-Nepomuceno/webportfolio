@@ -5,8 +5,11 @@ import { styles } from "../styles";
 
 const Hero = () => {
 	return (
-		<section className="flex items-center container flex-col w-full h-screen mx-auto">
-			<h1 className="text-3xl">CREATING</h1>
+		<section className="flex items-center container  h-screen mx-auto">
+			<h1 className="block text-3xl">
+				CREATING ENGAGING USER INTERFACES AND SEAMLESS USER EXPERIENCES.
+				<p className="block py-4">FOR YOUR BUSINESS</p>
+			</h1>
 		</section>
 	);
 };
