@@ -38,10 +38,6 @@ const Hero = ({ text }) => {
 					</motion.h1>;
 				}
 			})}
-			<motion.h1 variants={child} className="block text-3xl"></motion.h1>
-			<motion.p variants={child} className="block py-4">
-				FOR YOUR BUSINESS
-			</motion.p>
 		</motion.div>
 	);
 };
