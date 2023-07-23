@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { styles } from "../styles";
 
 const Hero = ({ text }) => {
-	const word = text.split("");
+	const paragraph = text.split("");
 
 	const container = {
 		hidden: { opacity: 0 },
@@ -30,14 +30,15 @@ const Hero = ({ text }) => {
 			variants={container}
 			initial="hidden"
 			animate="visible"
-			className="flex overflow-hidden items-center container  h-screen mx-auto">
-			{words.map((word, index) => {
-				{
-					<motion.h1 variants={child} key={index} className="block text-3xl">
-						{word}
-					</motion.h1>;
-				}
-			})}
+			className="flex overflow-hidden items-center  max-w-350 h-screen mx-auto">
+			{paragraph.map((word, index) => (
+				<motion.span
+					variants={child}
+					key={index}
+					className="text-white mr-2 text-3xl">
+					{word}
+				</motion.span>
+			))}
 		</motion.div>
 	);
 };
