@@ -4,6 +4,7 @@ import { styles } from "../styles";
 
 const Hero = ({ text }) => {
 	const word = text.split("");
+
 	const container = {
 		hidden: { opacity: 0 },
 		visible: (i = 1) => ({
@@ -30,12 +31,17 @@ const Hero = ({ text }) => {
 			initial="hidden"
 			animate="visible"
 			className="flex overflow-hidden items-center container  h-screen mx-auto">
-			<motion.h1 variants={child} className="block text-3xl">
-				CREATING ENGAGING USER INTERFACES AND SEAMLESS USER EXPERIENCES.
-				<motion.p variants={child} className="block py-4">
-					FOR YOUR BUSINESS
-				</motion.p>
-			</motion.h1>
+			{words.map((word, index) => {
+				{
+					<motion.h1 variants={child} key={index} className="block text-3xl">
+						{word}
+					</motion.h1>;
+				}
+			})}
+			<motion.h1 variants={child} className="block text-3xl"></motion.h1>
+			<motion.p variants={child} className="block py-4">
+				FOR YOUR BUSINESS
+			</motion.p>
 		</motion.div>
 	);
 };
