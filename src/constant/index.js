@@ -109,9 +109,9 @@ const experiences = [
 		iconBg: "#E6DEDD",
 		date: "January - Present",
 		points: [
-			"Worked on a number of projects, including developing web applications and a Software-as-a-Service dashboard using React and Chart.js",
-			"Implement an intuitive user interface and integrating data visualization in real-time",
-			"Worked in an Agile environment, specifically using the Scrum framework",
+			"Successfully developed and delivered 15+ frontend features within tight deadlines using Agile methodologies.",
+			"Rebuilt landing page using React and Tailwind with full user experience.",
+			"Collaborated with a team of developers to achieve a 20% improvement in website performance by optimizing frontend code",
 			"Participated in regular Scrum ceremonies, including stand-up meetings, sprint planning, and retrospectives",
 		],
 	},
