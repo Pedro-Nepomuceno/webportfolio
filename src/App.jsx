@@ -4,8 +4,6 @@ import {
 	About,
 	Contact,
 	Experience,
-	Hero,
-	AnimatedTextCharacter,
 	Navbar,
 	Tech,
 	StarsCanvas,
@@ -17,10 +15,7 @@ const App = () => {
 		<BrowserRouter>
 			<div className="relative z-0 bg-primary">
 				<Navbar />
-				<div className="flex justify-center items-center bg-hero-pattern bg-cover bg-no-repeat bg-center">
-					<Hero text="Creating engaging user experience and seamless user interface" />
-					<AnimatedTextCharacter text="for your business" />
-				</div>
+				<div className="flex justify-center items-center bg-hero-pattern bg-cover bg-no-repeat bg-center"></div>
 				<About />
 				<Experience />
 				<Tech />

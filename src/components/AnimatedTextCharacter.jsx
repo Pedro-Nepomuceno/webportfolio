@@ -1,56 +1,76 @@
 import React from "react";
 import { motion } from "framer-motion";
 
-const AnimatedTextCharacter = ({ text }) => {
-	// splitting text into letters
-	const letters = Array.from(text);
+// Word wrapper
+const Wrapper = (props) => {
+	// We'll do this to prevent wrapping of words using CSS
+	return <span className="word-wrapper">{props.children}</span>;
+};
 
-	// Variants for Container
-	const container = {
-		hidden: { opacity: 0 },
-		visible: (i = 1) => ({
-			opacity: 1,
-			transition: { staggerChildren: 0.03, delayChildren: 0.04 * i },
-		}),
-	};
+// Map API "type" values to JSX tag names
+const tagMap = {
+	paragraph: "p",
+	heading1: "h1",
+	heading2: "h2",
+};
 
-	// Variants for each letter
-	const child = {
-		visible: {
-			opacity: 1,
-			x: 0,
-			y: 0,
-			transition: {
-				type: "spring",
-				damping: 12,
-				stiffness: 100,
-			},
-		},
+// AnimatedCharacters
+// Handles the deconstruction of each word and character to set up for the
+// individual character animations
+const AnimatedCharacters = (props) => {
+	// Framer Motion variant object, for controlling animation
+	const item = {
 		hidden: {
-			opacity: 0,
-			x: -20,
-			y: 10,
-			transition: {
-				type: "spring",
-				damping: 12,
-				stiffness: 100,
-			},
+			y: "200%",
+			color: "#0055FF",
+			transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 0.85 },
+		},
+		visible: {
+			y: 0,
+			color: "#FF0088",
+			transition: { ease: [0.455, 0.03, 0.515, 0.955], duration: 0.75 },
 		},
 	};
+
+	// Split each word of props.text into an array
+	const splitWords = props.text.split(" ");
+
+	// Create storage array
+	const words = [];
+
+	// Push each word into words array
+	for (const [, item] of splitWords.entries()) {
+		words.push(item.split(""));
+	}
+
+	// Add a space ("\u00A0") to the end of each word
+	words.map((word) => {
+		return word.push("\u00A0");
+	});
+
+	// Get the tag name from tagMap
+	const Tag = tagMap[props.type];
 
 	return (
-		<motion.div
-			style={{ overflow: "hidden", display: "flex", fontSize: "2rem" }}
-			variants={container}
-			initial="hidden"
-			animate="visible">
-			{letters.map((letter, index) => (
-				<motion.span variants={child} key={index}>
-					{letter === " " ? "\u00A0" : letter}
-				</motion.span>
-			))}
-		</motion.div>
+		<Tag>
+			{words.map((word, index) => {
+				return (
+					// Wrap each word in the Wrapper component
+					<Wrapper key={index}>
+						{words[index].flat().map((element, index) => {
+							return (
+								<span className="inline-block overflow-hidden" key={index}>
+									<motion.span className="inline-block " variants={item}>
+										{element}
+									</motion.span>
+								</span>
+							);
+						})}
+					</Wrapper>
+				);
+			})}
+		</Tag>
 	);
 };
 
-export default AnimatedTextCharacter;
+export default AnimatedCharacters;

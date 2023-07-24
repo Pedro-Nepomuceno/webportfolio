@@ -10,11 +10,12 @@ import About from "./About";
 import Tech from "./Tech";
 import Experience from "./Experience";
 import Works from "./Works";
-
+import AnimatedTextCharacter from "./AnimatedTextCharacter";
 import Contact from "./Contact";
 
 export {
 	Hero,
+	AnimatedTextCharacter,
 	Navbar,
 	About,
 	Tech,
