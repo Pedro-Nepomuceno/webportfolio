@@ -43,11 +43,11 @@ const services = [
 		icon: mobile,
 	},
 	{
-		title: "Typescript",
+		title: "JavaScript",
 		icon: mobile,
 	},
 	{
-		title: "Web Developer",
+		title: "Frontend Developer",
 		icon: web,
 	},
 	{
