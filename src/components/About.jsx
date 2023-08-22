@@ -49,12 +49,11 @@ const About = () => {
 			<motion.p
 				variants={fadeIn("", "", 0.1, 1)}
 				className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-				I'm a Frontend developer with a proven track record of delivering
-				successful projects on time using Agile development methodologies. With
-				over two years of experience as a full stack developer, I have a passion
-				for creating engaging and user-friendly web applications using
+				I'm a Full-stack developer with a proven track record of delivering high
+				quality projects on time using Agile development methodologies. I have a
+				passion for creating engaging and user-friendly web applications using
 				cutting-edge technologies. At Artalaxies LLC, I work with a team of
-				talented developers to deliver a dashboard that provides real-time data
+				talented developers to deliver a software that provides real-time data
 				visualization for art collectors and enthusiasts.
 			</motion.p>
 		</>
