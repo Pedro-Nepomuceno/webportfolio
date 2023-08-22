@@ -110,9 +110,9 @@ const experiences = [
 		date: "January - Present",
 		points: [
 			"Successfully developed and delivered 15+ frontend features within tight deadlines using Agile methodologies.",
-			"Rebuilt landing page using React and Tailwind with full user experience.",
+			"Contributed to a 30% increase in user engagement by rebuilding landing Webapp using React and Tailwind with full user experience.",
 			"Collaborated with a team of developers to achieve a 20% improvement in website performance by optimizing frontend code",
-			"Participated in regular Scrum ceremonies, including stand-up meetings, sprint planning, and retrospectives",
+			"Developed UI using RESTful APIs for seamless data retrieval and enhanced website functionality.",
 		],
 	},
 	{
