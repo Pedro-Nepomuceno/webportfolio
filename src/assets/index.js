@@ -23,6 +23,7 @@ import practicum from "./company/practicum.jpg";
 import sindanoi from "./company/sindanoi.jpeg";
 import hometown from "./company/hometown.png";
 import Art from "./company/Art.jpg";
+import web_1 from "./company/web_1.png";
 export {
 	logonoback,
 	backend,
@@ -49,4 +50,5 @@ export {
 	hometown,
 	Artalaxies,
 	Art,
+	web_1,
 };
