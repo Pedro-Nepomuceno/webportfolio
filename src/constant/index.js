@@ -9,6 +9,7 @@ import {
 	tailwind,
 	around,
 	hometown,
+	web_1,
 	nodejs,
 	mongodb,
 	git,
@@ -199,7 +200,7 @@ const projects = [
 	{
 		name: "Artalaxies",
 		description:
-			"This is a project that uses the Web 3.0 tech stack to build decentralized applications for the next generation of internet experience.",
+			"This project was developed for Artalaxies. A company that use the Web 3.0 tech stack to build decentralized applications for the next generation of internet experience.",
 		tags: [
 			{
 				name: "React",
@@ -233,6 +234,23 @@ const projects = [
 		],
 		image: hometown,
 		source_code_link: "https://github.com/Pedro-Nepomuceno/web_project_3",
+	},
+	{
+		name: "Learning how to learn",
+		description:
+			"This project was built during practicum's bootcamp using HTML and CSS,The project shows how the process of learning works and what techniques are available for anyone who is interested in mastering a new skill.",
+		tags: [
+			{
+				name: "CSS",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "HTML",
+				color: "green-text-gradient",
+			},
+		],
+		image: web_1,
+		source_code_link: "https://pedro-nepomuceno.github.io/web_project_1/",
 	},
 ];
 
