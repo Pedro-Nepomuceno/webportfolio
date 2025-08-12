@@ -52,12 +52,17 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a Full-stack developer with a proven track record of delivering high
-        quality projects on time using Agile development methodologies. I have a
-        passion for creating engaging and user-friendly web applications using
-        cutting-edge technologies. At Artalaxies LLC, I work with a team of
-        talented developers to deliver a software that provides real-time data
-        visualization for art collectors and enthusiasts.
+        I am an IT professional and software engineer with experience designing
+        and deploying solutions that improve system efficiency, strengthen
+        security, and provide intuitive user experiences. I have deployed
+        cloud-based applications, developed fullstack applications, and
+        implemented secure authentication systems, and I’m now focused on
+        advancing my expertise in system optimization and cloud deployment.
+        Backed by multiple industry-recognized trainings and certifications, I
+        bring a background in precise documentation, workflow management, and
+        clear client communication from my years as a paralegal. I am committed
+        to solving problems, optimizing processes, and delivering seamless,
+        reliable technology experiences.
       </motion.p>
     </>
   );
