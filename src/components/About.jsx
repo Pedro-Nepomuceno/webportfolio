@@ -58,11 +58,14 @@ const About = () => {
         cloud-based applications, developed fullstack applications, and
         implemented secure authentication systems, and I’m now focused on
         advancing my expertise in system optimization and cloud deployment.
-        Backed by multiple industry-recognized trainings and certifications, I
-        bring a background in precise documentation, workflow management, and
-        clear client communication from my years as a paralegal. I am committed
-        to solving problems, optimizing processes, and delivering seamless,
-        reliable technology experiences.
+        Backed by industry-recognized training and certifications, I bring
+        hands-on experience in IT operations, including system troubleshooting,
+        infrastructure support, and maintaining secure and reliable technology
+        environments. My background supporting a compliance-driven environment
+        has strengthened my skills in precise documentation, workflow
+        management, and clear communication with both clients and internal
+        teams. I am committed to solving problems, optimizing processes, and
+        delivering seamless, reliable technology experiences.
       </motion.p>
     </>
   );

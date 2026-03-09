@@ -104,15 +104,15 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Paralegal",
-    company_name: "Salgado & Peralta",
+    title: "IT Support Specialist",
+    company_name: "Salgado & Peralta P.A",
     icon: Artalaxies,
     iconBg: "#E6DEDD",
     date: "2023 - Present",
     points: [
-      "Managed and organized large volumes of case files, applying strong attention to detail and information management.",
-      "Drafted and reviewed over 150 legal documents annually, documenting legal procedures and case progress in detailed reports, enabling seamless collaboration between attorneys and support staff",
-      "Researched and summarized case law, statutes, and legal precedents, producing concise briefs that improved attorney preparation efficiency by 20%",
+      "Administer and maintain secure document management systems, ensuring proper access control and compliance with confidentiality policies.",
+      "Manage user processes including account access requests, document permissions, and secure data handling",
+      "Supported day-to-day technical needs of a 20+ user office environment including password resets, shared drive access, printer troubleshooting, and workstation configuration",
     ],
   },
   {
@@ -129,17 +129,16 @@ const experiences = [
     ],
   },
   {
-    title: "Practicum by Yandex Externship",
-    company_name: "Practicum",
+    title: "Sales Assistant",
+    company_name: "Heblima Ltda",
     icon: practicum,
     iconBg: "#E6DEDD",
-    date: "Jul 2021 - May 2022",
+    date: "Jul 2016 - May 2019",
     points: [
-      "Completed 740+ hours of coding in JavaScript, React, Node.js, HTML, CSS",
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Served as primary point of contact for client inquiries regarding pricing, order status, and product availability.",
+      "Managed order lifecycle from RFQ to delivery and invoicing.",
+      "Assisted in preparing documentation for industrial components including valves and tubing.",
+      "Expanded existing accounts by cross-selling high-pressure valves and specialty tubing solutions.",
     ],
   },
 ];
