@@ -3,6 +3,9 @@
   "homepage": "webportfolio-idpuqk50o-pedro-nepomuceno.vercel.app",
   "private": true,
   "version": "0.0.0",
+  "engines": {
+    "node": "24.x"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
